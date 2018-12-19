@@ -147,3 +147,34 @@ body{
     justify-self: center;
     color: #FFFFFF;
 }
+.glide{
+    position: absolute;
+    width: 100%;
+    margin-top: 300px;
+    padding: 0 100px;
+}
+.glide .glide__track .glide__slides .glide__slide{
+     margin-left: 30px;
+     font-size: 2em;
+
+}
+.glide .glide__track .glide__slides .glide__slide p{
+    font-size: .6em;
+    margin-left: 15px;
+
+}
+.glide-button .glide__arrow--left,
+.glide-button .glide__arrow--right{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #FFE400;
+    border-radius: 20%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 12px;
+
+}
+.glide-button .glide__arrow--right{
+    float: right;
+}
+
