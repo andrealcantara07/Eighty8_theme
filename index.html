@@ -1,17 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eighty88</title>
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
+
+    <!--------LOADING CIRCLE---------->
     <div id=preloder>
-        <div class="loader"></div>
+        <div id="loader"></div>
 
     </div>
-    
+
+
+    <!-------NAV BAR----------->
+
+    <header class="header-section">
+        <div class="header-wrap">
+            <!----Logo----->
+            <a href="#home" class="logo">
+                <img src="#" alt="logo of company">
+            </a>
+            <!--------- MAIN NAV BAR ------->
+            <ul class="nav-bar">
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Settings</a></li>
+
+            </ul>
+            <!--------SIDE NAV BAR-------->
+            <div class="nav-signin">
+                <a href="#">Log In</a>
+                <a href="#">Sign Up</a>
+                <a href="#">Sign Out</a>
+            </div>
+
+
+        </div>
+
+    </header>
+    <!----------END OF HEADER------>
+
+
+
+    <!-----------BODY BACKGROUND------>
+    <section class="bg-section set-bg">
+        <div class="container">
+            <div class="body-row">
+                <div class="col-md-2 col-sm-4 genre">
+                    <img scr="#" alt="Music">
+                    <p>Hip Hop</p>
+                </div>
+
+                <div class="col-md-2 col-sm-4 genre">
+                    <img scr="#" alt="Music">
+                    <p>Pop</p>
+                </div>
+
+                <div class="col-md-2 col-sm-4 genre">
+                    <img scr="#" alt="Music">
+                    <p>Edm</p>
+                </div>
+
+                <div class="col-md-2 col-sm-4 genre">
+                    <img scr="#" alt="Music">
+                    <p>Rock</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="slider glide">
+            <div class="hs-item glide__track" data-glide="track">
+                <div class="hs-contain glide__slides">
+                    <span>Next</span>
+                    <h2>News Here</h2>
+                </div>
+            </div>
+
+            <div class="hs-item glide__track" data-glide="track">
+                <div class="hs-contain glide__slides">
+                    <span>Next</span>
+                    <h2>News Here</h2>
+                </div>
+            </div>
+
+            <div class="hs-item glide__track" data-glide="track">
+                <div class="hs-contain glide__slides">
+                    <span>Next</span>
+                    <h2>News Here</h2>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="main.js"></script>
 </body>
+
 </html>
